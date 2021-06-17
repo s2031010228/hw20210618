@@ -1,0 +1,301 @@
+.big-div {
+    width: 1434px;
+    margin: auto;
+}
+
+.div1 {
+    height: 850px;
+}
+
+.head {
+    height: 85px;
+}
+
+.head .head-span {
+    position: relative;
+    left: 180px;
+    bottom: 41px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav span {
+    margin: 10px;
+    position: relative;
+    bottom: 71px;
+}
+
+.nav span a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav span a:hover {
+    color: #0eb892;
+    border-bottom: solid 6px #0eb892;
+}
+
+.photo1 {
+    width: 698px;
+    height: 338px;
+}
+
+.jp-1 {
+    width: 92px;
+    height: 50px;
+    position: absolute;
+    right: 1385px;
+    top: 268px;
+    background-color: black;
+    opacity: 0.5;
+}
+.span1 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    left: 70px;
+    top: 280px;
+}
+
+
+.black-1 {
+    width: 697px;
+    height: 128px;
+    position: absolute;
+    right: 779px;
+    top: 317px;
+    background-color: black;
+    opacity: 0.5;
+    line-height: 128px;
+    text-align: center;
+}
+
+.black-1-1 {
+    font-size: 16px;
+    color: white;
+    position:absolute;
+    left: 70px;
+    top: 360px;
+}
+
+.jp-2 {
+    width: 92px;
+    height: 50px;
+    position: absolute;
+    right: 649px;
+    top: 286px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.span2 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 667px;
+    top: 300px;
+}
+
+.white-1 {
+    width: 326px;
+    height: 105px;
+    border-bottom: solid #e3e3e3;
+    border-left: solid #e3e3e3;
+    border-right: solid #e3e3e3;
+}
+
+.white-1-1 {
+    font-size: 16px;
+    color: black;
+    position:absolute;
+    left: 790px;
+    top: 370px;
+}
+
+.jp-3 {
+    width: 92px;
+    height: 50px;
+    position: absolute;
+    right: 280px;
+    top: 286px;
+    background-color: black;
+    opacity: 0.5;
+}
+.span3 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 310px;
+    top: 300px;
+}
+
+.white-2-1 {
+    font-size: 16px;
+    color: black;
+    position:absolute;
+    right: 85px;
+    top: 370px;
+}
+
+.jp-4 {
+    width: 92px;
+    height: 50px;
+    position: absolute;
+    right: 1385px;
+    top: 667px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.span4 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 1415px;
+    top: 678px;
+}
+
+.white-3-1 {
+    font-size: 16px;
+    color: black;
+    position:absolute;
+    right: 1190px;
+    top: 750px;
+}
+
+.jp-5 {
+    width: 92px;
+    height: 50px;
+    position: absolute;
+    right: 1017px;
+    top: 667px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.span5 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 1047px;
+    top: 678px;
+}
+
+.white-4-1 {
+    font-size: 16px;
+    color: black;
+    position:absolute;
+    right: 830px;
+    top: 750px;
+}
+
+.jp-6 {
+    width: 92px;
+    height: 50px;
+    position: absolute;
+    right: 649px;
+    top: 667px;
+    background-color: black;
+    opacity: 0.5;
+}
+.span6 {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 680px;
+    top: 678px;
+}
+.white-5-1 {
+    font-size: 16px;
+    color: black;
+    position:absolute;
+    right: 460px;
+    top: 750px;
+}
+
+.black-2 {
+    width: 453px;
+    height: 130px;
+    position: absolute;
+    left: 61px;
+    top: 1203px;
+    background-color: black;
+    opacity: 0.5;
+    line-height: 130px;
+    text-align: center;
+}
+
+.black-2-1 {
+    font-size: 16px;
+    color: white;
+    position:absolute;
+    left: 100px;
+    top: 1240px;
+}
+
+.photo-o {
+    width: 330px;
+    height: 230px;
+}
+
+.photo-more {
+    width: 330px;
+    height: 337px;
+}
+
+body .big-div .body1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body .big-div .body2 {
+    margin-top: 38px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo2 {
+    width: 454px;
+    height: 337px;
+    margin: 18px;
+}
+
+.photo-o2 {
+    width: 454px;
+    height: 151px;
+    margin: 18px;
+}
+
+.photo-more2 {
+    width: 455px;
+    height: 338px;
+    margin: 18px;
+}
+
+.body-s .body3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body-s .body4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-s .body5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-s {
+    display: flex;
+    align-items: stretch;
+}
