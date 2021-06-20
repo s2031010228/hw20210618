@@ -1,0 +1,120 @@
+body,h1,h2,h3,p,span,div,ul{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #e3e4e5;
+}
+
+body{
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+.head{
+    width: 1190px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+/* 导航栏 */
+
+a{
+    text-decoration: none;
+    color: #999;
+}
+
+ul li{
+    list-style: none;
+}
+
+.nav li{
+    float: left;
+    overflow: hidden;
+}
+
+li a span{
+    color: #f10215;
+}
+
+i{
+    font-style: normal;
+    -webkit-text-stroke-width: .2px;
+    color: #999;
+    margin-right: 10px;
+}
+
+.nav{
+    float: right;
+    overflow: hidden;
+}
+
+.nav li a{
+    margin: 0 7px;
+}
+
+.border{
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 11px 5px 0;
+}
+
+/* 二级菜单 */
+
+.layer{
+    display: none;
+    position: absolute;
+    width: 270px;
+    height: 160px;
+    background: #fff;
+    border: #ccc solid 1px;
+    border-top: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+.layer ul li{
+    float: none;
+    display: inline-block;
+    margin-right: 50px;
+    line-height: 14px;
+}
+
+.item{
+    width: 280px;
+    border-bottom: #f1f1f1 solid 1px;
+    padding-bottom: 15px;
+    margin-left: -15px;
+}
+
+.icon{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    float: left;
+    border: 1px solid #e3e4e5;
+    border-bottom: none;
+    display: inline;
+}
+
+/* 样式 */
+
+a:hover{
+    color: #f10215;
+}
+.nav li:hover .icon{
+    padding-bottom: 2px;
+    border-color: #ccc;
+    background-color: #fff;
+}
+.nav li:hover .layer{
+    display: block;
+}
+
+.nav .layer{
+    top: 30px;
+}
