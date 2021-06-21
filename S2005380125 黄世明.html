@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .index {
+            width: 840px;
+            height: 1682px;
+            background: #f5f5f5;
+
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .homepage {
+            width: 814px;
+            height: 1682px;
+            background: #fff;
+            margin-top: 13.5px;
+            margin-left: 12px;
+            margin-right: 13px;
+
+        }
+
+        .image_up {
+            height: 227.5px;
+            background: url(图片/表单.png);
+        }
+
+        .h3 {
+            margin-top: 33.7px;
+            margin-bottom: 46px;
+            text-align: center;
+            font-weight: normal;
+        }
+
+        .form {
+            width: 733.5px;
+            height: 800px;
+            margin: 0 auto;
+
+
+            border-top: 3px solid #53a4f4;
+        }
+
+        li {
+            list-style: none;
+            color: #666666;
+            margin-left: 5.5px;
+
+        }
+
+        .li_student {
+            background: url(图片/红色星号.png) no-repeat 70px 0px;
+            margin-top: 33.5px;
+
+        }
+
+        input {
+            outline: none;
+        }
+
+        .form ul li:nth-child(2) {
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .form ul li:nth-child(3) {
+            background: url(图片/红色星号.png) no-repeat 40px 0px;
+            margin-top: 39px;
+            margin-bottom: 20px;
+
+        }
+
+        .form ul li:nth-child(4) {
+            margin-left: 15px;
+        }
+
+        .form ul li:nth-child(5) {
+            background: url(图片/红色星号.png) no-repeat 40px 0px;
+            margin-top: 47px;
+
+        }
+
+        .form ul li:nth-child(6) {
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .form ul li:nth-child(7) {
+            background: url(图片/红色星号.png) no-repeat 40px 0px;
+            margin-top: 47px;
+
+        }
+
+        .form ul li:nth-child(8) {
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .form ul li:nth-child(9) {
+            /* 联系方式 */
+            background: url(图片/红色星号.png) no-repeat 70px 0px;
+            margin-top: 47px;
+
+        }
+
+        .form ul li:nth-child(10) {
+            margin-left: 15px;
+            margin-top: 10px;
+
+        }
+
+        .form ul li:nth-child(11) {
+
+            background: url(图片/红色星号.png) no-repeat 100px 0px;
+            margin-top: 47px;
+
+        }
+
+        .form ul li:nth-child(12) {
+            margin-left: 15px;
+            margin-top: 10px;
+
+        }
+
+        .form ul li:nth-child(13) {
+            /* 现居地址 */
+            background: url(图片/红色星号.png) no-repeat 70px 0px;
+            margin-top: 47px;
+            margin-bottom: 17px;
+
+        }
+
+        .form ul li:nth-child(14) {
+            margin-left: 15px;
+            margin-top: 10px;
+
+        }
+
+        .form ul li:nth-child(15) {
+            margin-left: 15px;
+            margin-top: 10px;
+
+
+        }
+
+        .form ul li:nth-child(16) {
+            /* 延迟返校事由 */
+            background: url(图片/红色星号.png) no-repeat 100px 0px;
+            margin-top: 47px;
+            margin-bottom: 17px;
+
+        }
+
+        .form ul li:nth-child(17) {
+            margin-left: 15px;
+            margin-top: 10px;
+
+
+        }
+
+        .form ul li:nth-child(18) {
+            /* 计划返校日期 */
+            background: url(图片/红色星号.png) no-repeat 100px 0px;
+            margin-top: 30px;
+            margin-bottom: 17px;
+
+        }
+        .form ul li:nth-child(19) {
+            margin-left: 15px;
+            margin-top: 10px;
+
+
+        }
+
+        .form ul li:nth-child(20) {
+            /* 计划返校日期 */
+          
+            margin-top: 30px;
+            margin-bottom: 17px;
+
+        }
+        .工具人{
+            width: 733px;
+            height: 38px;
+            border: 1px solid #dbdbdb;
+            cursor: pointer;
+            position: relative;
+            background: url(图片/上传文件.png) no-repeat 200px 11px;
+            
+            
+        }
+        .工具人:hover{
+            border: 1px solid blue;
+            
+        }
+        .备胎{
+            position: absolute;
+           
+            display: none;
+            
+        }
+        .submit{
+            width: 104px;
+            height: 35px;
+            margin-top: 30px;
+            background: #53a4f4;
+            border: 0px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    
+
+    </style>
+</head>
+
+<body>
+    <div class="index">
+        <div class="homepage">
+            <div class="image_up"></div>
+            <h3 class="h3">学生延迟返校申请表</h6>
+
+                <div class="form">
+                    <ul>
+                        <label>
+                            <li class="li_student">学生姓名</li>
+                        </label>
+                        <li>
+                            <input type="text" style="width: 340px;height: 26px;border: 1px solid #dbdbdb;">
+                        </li>
+
+
+
+                        <li>性别</li>
+                        <li>
+                            <input type="radio" name="Gender" style="margin-bottom: 15px;margin-right: 5px;">男 <br>
+                            <input type="radio" name="Gender" style="margin-right: 5px;">女
+                        </li>
+
+
+                        <li>学号</li>
+                        <li>
+                            <input type="text" style="width: 340px;height: 26px;border: 1px solid #dbdbdb;">
+                        </li>
+
+
+                        <li>班级</li>
+                        <li>
+                            <input type="text" style="width: 340px;height: 26px;border: 1px solid #dbdbdb;">
+                        </li>
+
+                        <li>联系方式</li>
+                        <li>
+                            <input type="text"
+                                style="width: 360px;height: 26px;border: 1px solid #dbdbdb;background: url(图片/手机.png)no-repeat 8px;padding-left: 20px;">
+                        </li>
+
+
+                        <li>家长联系方式</li>
+                        <li>
+                            <input type="text"
+                                style="width: 360px;height: 26px;border: 1px solid #dbdbdb;background: url(图片/手机.png)no-repeat 8px;padding-left: 20px;">
+                        </li>
+
+
+                        <li>现居地址</li>
+                        <li>
+                            <select name="" id="" style="border: 1px solid #dbdbdb;width: 137px;height: 25px;">
+                                <option value="">请选择省份</option>
+                                <option value="">河北省</option>
+                                <option value="">山西省</option>
+                                <option value="">辽宁省</option>
+                            </select>
+                            <select name="" id="" style="border: 1px solid #dbdbdb;width: 93.5px;height: 25px;">
+                                <option value="">请选择城市</option>
+                                <option value="">河北省</option>
+                                <option value="">山西省</option>
+                                <option value="">辽宁省</option>
+                            </select>
+                            <select name="" id="" style="border: 1px solid #dbdbdb;width: 99px;height: 25px;">
+                                <option value="">请选择区/县</option>
+                                <option value="">河北省</option>
+                                <option value="">山西省</option>
+                                <option value="">辽宁省</option>
+                            </select>
+
+                        </li>
+                        <li>
+                            <textarea rows="5" cols="47" placeholder="详细地址"
+                                style="resize:none; border: 1px solid #dbdbdb;outline: none;"></textarea>
+                        </li>
+
+
+
+                        <li>延迟返校事由</li>
+                        <li>
+                            <input type="radio" name="a"
+                                style="margin-bottom: 15px;margin-right: 5px;">确诊感染新型肺炎，正处于治疗期<br>
+                            <input type="radio" name="a"
+                                style="margin-right: 5px;margin-bottom: 15px;">疑似感染新型肺炎，正处于医学观察期 <br>
+                            <input type="radio" name="a"
+                                style="margin-right: 5px;margin-bottom: 15px;">新型肺炎患者密切接触者,正处于居家隔离期间 <br>
+                            <input type="radio" name="a" style="margin-right: 5px;margin-bottom: 15px;">其他 <input
+                                type="text" style="width: 180px;">
+                        </li>
+
+
+
+
+                        <li>计划返校日期</li>
+                        <li>
+                            <input type="text"
+                                style="width: 180px;height: 31.5px;border: 1px solid #dbdbdb;background: url(图片/日期.png) no-repeat 155px 8px;padding-right: 30px;">
+                        </li>
+
+
+
+                        <li>证明材料上传（选填）</li>
+                        <li>
+                            <label>
+                                <input type="file" class="备胎">
+                                <div class="工具人" style="text-align: center;">
+                                    <span style="line-height: 36px;">选择文件（上限三个，每个不超过30M)</span>
+                                    
+                                    
+                                </div>
+                                
+                            </label>
+                            
+
+                        </li>
+
+
+                        <li>
+                            <input type="submit" class="submit">
+                
+                        </li>
+                        
+
+                     
+                       
+
+
+
+
+
+                    </ul>
+
+                </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
