@@ -1,0 +1,46 @@
+.big-div {
+    background: url(../images/网页设计稿\(背景\).jpg);
+    width: 1440px;
+    height: 320px;
+    margin: auto;
+}
+body {
+    font-size: 16px;
+    color: #88494d;
+}
+.ab-us {
+    font-size: 16px; 
+    margin-top: 20px; 
+    float: left;  
+    margin-left: 110px;
+}
+h4 {
+    font-size: 16px;
+    color: #4d191d;
+}
+
+.ab-us p {
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: -120px;
+    margin-left: 175px;
+    width: 150px;
+}
+p {
+    margin-top: 10px;
+}
+.news {
+    padding-top: 20px;   
+    padding-left: 535px;
+}
+.co-us {
+    font-size: 16px; 
+    margin-top: -290px; 
+    float: right;  
+    margin-right: 150px;
+}
+.logo {
+    float: right;
+    margin-top: -120px;
+    margin-right: 180px;
+}
