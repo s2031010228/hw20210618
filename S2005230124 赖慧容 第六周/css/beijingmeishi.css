@@ -1,0 +1,236 @@
+body {
+    /* color: white; */
+    font-size: 12px;
+}
+.big-div {
+    width: 860px;
+    height: 272px;
+    margin: auto;
+}
+h4 {
+    font-size: 20px;
+    line-height: 1px;
+    color: #666666;
+}
+hr {
+    border: none;
+    border-bottom: 2px solid #e5e5e5;
+}
+.tu1 {
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    margin-top: 20px;
+    background: url(../images/旅行社1.jpg);
+}
+.tu2 {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    margin-left: 280px;
+    margin-top: 20px;
+    background: url(../images/旅行社2.jpg);
+}
+.tu3 {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    margin-left: 280px;
+    margin-top: 140px;
+    background: url(../images/旅行社3.jpg);
+}
+.tu4 {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    margin-left: 480px;
+    margin-top: 20px;
+    background: url(../images/旅行社4.jpg);
+}
+.tu5 {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    margin-left: 480px;
+    margin-top: 140px;
+    background: url(../images/旅行社5.jpg);
+}
+.tu6 {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    margin-left: 680px;
+    margin-top: 20px;
+    background: url(../images/旅行社6.jpg);
+}
+.tu7 {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    margin-left: 680px;
+    margin-top: 140px;
+    background: url(../images/旅行社7.jpg);
+}
+.solid1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+}
+.solid2 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+}
+.solid3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+}
+.solid4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+}
+.solid5 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+}
+.solid6 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+}
+.solid7 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    opacity: 0.5;
+}
+a:hover {
+    color: rgb(255, 230, 230);
+}
+.a1 {
+    position: absolute;
+    left: 10px;
+    top: 197px;
+    color: #ff9900;
+    text-decoration: none;    
+}
+.span1 {
+    position: absolute;
+    right: 10px;
+    top: 197px;
+    color: white;   
+}
+.a2 {
+    position: absolute;
+    left: 9px;
+    top: 77px;
+    color: #ff9900;
+    text-decoration: none;
+
+}
+.span2 {
+    position: absolute;
+    right: 8px;
+    top: 77px;
+    color: white;
+}
+.a3 {
+    position: absolute;
+    left: 9px;
+    top: 77px;
+    color: #ff9900;
+    text-decoration: none;
+
+}
+.span3 {
+    position: absolute;
+    right: 8px;
+    top: 77px;
+    color: white;
+}
+.a4 {
+    position: absolute;
+    left: 9px;
+    top: 77px;
+    color: #ff9900;
+    text-decoration: none;
+
+}
+.span4 {
+    position: absolute;
+    right: 8px;
+    top: 77px;
+    color: white;
+}
+.a5 {
+    position: absolute;
+    left: 9px;
+    top: 77px;
+    color: #ff9900;
+    text-decoration: none;
+
+}
+.span5 {
+    position: absolute;
+    right: 8px;
+    top: 77px;
+    color: white;
+}
+.a6 {
+    position: absolute;
+    left: 9px;
+    top: 77px;
+    color: #ff9900;
+    text-decoration: none;
+
+}
+.span6 {
+    position: absolute;
+    right: 8px;
+    top: 77px;
+    color: white;
+}
+.a7 {
+    position: absolute;
+    left: 9px;
+    top: 77px;
+    color: #ff9900;
+    text-decoration: none;
+
+}
+.span7 {
+    position: absolute;
+    right: 8px;
+    top: 77px;
+    color: white;
+}
