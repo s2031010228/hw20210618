@@ -1,0 +1,111 @@
+
+body{
+    margin: auto;
+    width: 1440px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+main{
+    width: 1440px;
+    height: 333px;
+    background: url(../images/世界地图.png) no-repeat;
+    background-position: center ;
+}
+
+.left{
+    float:left;
+    padding-top: 31px;
+    padding-left: 240px;
+    width: 300px; 
+    height: 333px;
+}
+h2{
+    margin: 0;
+    line-height: 1;
+    float:left;
+    font-family:"Microsoft YaHei",微软雅黑 ;
+    font-size: 12px;
+    padding-right: 70px;
+    color: #5f2024;
+}
+
+h2 span{
+    margin-right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #4d191d;
+}
+.picture{
+    padding-top:31px;
+    float: left; 
+    width: 300px; 
+    height: 333px;
+}
+.picture p{
+    color:#79282e;
+    font-family: "Microsoft YaHei",微软雅黑;
+    font-size: 12px;
+    line-height: 20px;
+}
+.picture a{
+    color: #247679;
+    font-family: "Microsoft YaHei",微软雅黑;
+    font-size: 12px;
+    text-decoration: none;
+}
+img{
+    float: left;
+    padding-right: 15px;
+}
+.center{
+    float: left;
+    padding-left: 15px;
+}
+.right{
+    float: left;
+    width: 230px; 
+    height: 333px;
+    padding-top: 31px;
+    padding-right: 240px;
+}
+.right h2{
+    margin: 0;
+    line-height: 1;
+    float: left;
+    font-family: "Microsoft YaHei",微软雅黑;
+    color: #5f2024;
+    font-size: 12px;
+}
+.right span{
+    margin-right: 12px;
+    color: #4d191d;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wg{
+    padding-top:31px;
+    float: left; 
+}
+.order{
+    float: left;
+}
+div{
+    color: #79282e;
+    font-size: 12px;
+    font-family:"Microsoft YaHei",微软雅黑 ;
+}
+.order{
+    float: left;
+    padding-left: 0;
+    list-style: none;
+}
+.order li{
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-family:"Microsoft YaHei",微软雅黑 ;
+}
+.order a{
+        color: #79282e;
+        text-decoration: none;
+}
+

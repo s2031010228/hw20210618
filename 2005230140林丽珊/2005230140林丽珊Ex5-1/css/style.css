@@ -1,0 +1,146 @@
+
+main{
+    margin: 0;
+    width: 1900px;
+    height: 474px;
+    background-image: url(../images/bj.png);
+    background-repeat: no-repeat;
+}
+.div1{
+    width: 1900px;
+    height: 474px;
+    background-image: url(../images/YScorner.png),url(../images/ZXcorner.png);
+    background-position:top right, bottom left;
+    background-repeat: no-repeat,no-repeat;
+}
+.div2{
+    float: left;
+    width:521px;
+    height:473px;
+    margin-left: 310px;
+   
+}
+.div3{
+    float:right;
+    width: 647px;
+    height: 473px;
+    margin-right: 341px;
+   
+}
+.logo{
+    margin-top: 25px;
+    float:left;
+    margin-top:27px;
+}
+h2{
+    font-size: 24px;
+}
+.display{
+    width: 522px;
+    height:271px;
+    padding-top: 20px;
+    background-image: url(../images/Dt.png);
+}
+.wzh{
+    width: 504px;
+    height: 255px;
+    border-style: solid;
+    border-width:1px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-color: #d0d0d0;
+}
+.fg{
+    width:522px;
+    height: 51px;
+    background-color:#2e2e2e;
+    text-align: center;
+    line-height:51px ;
+}
+text{
+    font: 18px "SimSun","宋体";
+    font-size: 24px;
+    color: #f4f4f4;
+}
+
+
+.dt{
+    width: 681px;
+    height: 475px;
+    float: right;
+    margin-top: 0px;
+ 
+}
+h3{
+    font-size: 24px;
+}
+.text{
+    margin-top: 20px;
+    padding-left: 7px;
+}
+
+.wz1{
+    border-bottom: 1px dashed #6d6d6d;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+
+.wz2{
+    color: #808080;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.Xyyz{
+    float: left;
+    width:310px;
+    height:192px;
+  
+   
+
+}
+.Zyyz{
+    float: right;
+    width:310px;
+    height:192px;
+  
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+  
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #6d6d6d;
+}
+a{
+    background-image: url(../images/xbs.png);
+    background-repeat: no-repeat;
+    background-position:bottom left;
+    background-position-y: 10px; 
+   
+    padding-left: 10px;
+    text-decoration: none;
+    color:#5c5757;
+}
+a:hover{
+    color: #232432;
+    background: #d5765d;
+}
+ul li span{
+    color: #8d8d8d;
+    float: right;
+}
+.zhyh{
+    border-bottom:none ;
+  }
+
+  h2 span{
+    color: #c8c8c8;
+    font-size: 15px;
+}
+h3 span{
+    color: #c8c8c8;
+    font-size: 15px;
+}

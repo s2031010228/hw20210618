@@ -1,0 +1,216 @@
+body{
+    height: 275px;
+    width: 1440px;
+    background-color: #fff;
+}
+main{
+    margin-left: 300px;
+}
+.ct{
+    height: 32px;
+    margin-left: 20px;
+}
+.ct span{
+    float: left;
+    width: 860px;
+    color: #666666;
+    font-size: 20px;
+    font-family: "Microsoft YaHei",微软雅黑;
+    border-bottom: 1.5px dotted #e5e5e5;
+    padding-bottom: 10px;
+}
+.first{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 280px;
+    position: relative;
+}
+.firstt{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 260px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.firstt h2{
+    margin-top: 6px;
+    color: #ffffff; 
+    font-size: 12px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.firstt span{
+    margin-right: 55px;
+    margin-left: 14px;
+    color: #ff9900;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.second{
+    float: left;
+    margin-top: 20px;
+    width: 180px;
+    height: 100px;
+    position: relative;
+}
+.secondd{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.secondd h2{
+    margin-top: 6px;
+    color: #ffffff; 
+    font-size: 12px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.secondd span{
+    margin-right: 33px;
+    margin-left: 8px;
+    color: #ff9900;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.third{
+    margin-top: 19px;
+    width: 180px;
+    height: 101px;
+    position: relative;
+}
+.thirdd{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.thirdd h2{
+    margin-top: 6px;
+    color: #ffffff; 
+    font-size: 12px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.thirdd span{
+    margin-right: 33px;
+    margin-left: 8px;
+    color: #ff9900;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.four{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 180px;
+    height: 100px;
+    position: relative;
+}
+.fourr{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.fourr h2{
+    margin-top: 6px;
+    color: #ffffff; 
+    font-size: 12px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.fourr span{
+    margin-right: 33px;
+    margin-left: 8px;
+    color: #ff9900;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.five{
+    margin-top: 20px;
+    width: 180px;
+    height: 100px;
+    position: relative;
+}
+.fivee{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.fivee h2{
+    margin-top: 6px;
+    color: #ffffff; 
+    font-size: 12px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.fivee span{
+    margin-right: 33px;
+    margin-left: 8px;
+    color: #ff9900;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.six{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 180px;
+    height: 100px;
+    position: relative;
+}
+.sixx{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sixx h2{
+    margin-top: 6px;
+    color: #ffffff; 
+    font-size: 12px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.sixx span{
+    margin-right: 33px;
+    margin-left: 8px;
+    color: #ff9900;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.seven{
+    margin-top: 20px;
+    width: 180px;
+    height: 100px;
+    position: relative;
+}
+.sevenn{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 180px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.sevenn h2{
+    margin-top: 6px;
+    color: #ffffff; 
+    font-size: 12px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
+.sevenn span{
+    margin-right: 33px;
+    margin-left: 8px;
+    color: #ff9900;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",微软雅黑;
+}
