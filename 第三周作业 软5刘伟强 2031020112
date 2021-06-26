@@ -1,0 +1,53 @@
+body {
+    font-size: 12px;
+}
+p {
+    margin: auto;
+}
+
+footer {
+    width: 1440px;
+    height: 85px;
+    background-color: #4d191d;
+}
+
+footer img {
+    float: left;
+    margin-left: 240px;
+    margin-right: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer div {
+    color: #b7b7b7;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    width: 960px;
+}
+
+footer a {
+    color: #b7b7b7;
+    width: 960px;
+}
+a {
+    text-decoration: none;
+}
+
+header, main, footer {
+    margin: auto;
+}
+
+.copyright {
+    margin-top: 13px;
+}
+
+.begin {
+    float: right;
+    margin-top: 3px;
+    margin-right: 240px;
+}
+
+.support {
+    margin-top: 13px;
+}
