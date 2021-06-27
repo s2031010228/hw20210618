@@ -1,0 +1,74 @@
+1.红字样式
+
+a:hover {
+
+    color: #c81623;
+
+}
+
+2.黑底样式
+
+    -webkit-transition: background-color .2s ease;《-
+
+    transition: background-color .2s ease;《-
+
+3.变白样式
+
+background: linear-gradient(
+
+
+180deg
+
+
+,
+
+ white
+,
+
+ #eeeeee
+,
+
+ white
+);
+
+
+
+4.
+
+.more2_item_hd .more2_item_btn:hover {
+
+    background: #c81623;
+
+    border-color: #c81623;
+
+}
+
+5.X
+
+.more2_item_delete:hover {
+
+    background-image: url(9WOa9jn/Ai8058i39DJCAAAAAElFTkSuQmCC);
+
+}
+
+6.叠成
+
+:focus {
+
+    outline: -webkit-focus-ring-color auto 1px;
+
+}
+
+7.转换
+
+.elevator_lk:hover {
+
+    color: #fff;
+
+}
+
+a:hover {
+
+    color: #c81623;
+
+}
