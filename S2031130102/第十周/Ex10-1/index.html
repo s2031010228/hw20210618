@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2500521_z09ck6eqfkk.css">
+</head>
+
+<body>
+    <div class="bore">
+        <img class="po" src="img/p1.png" alt="">
+        <p class="zi1">学生延迟返校申请表</p>
+        <HR align=center width=735 color=#53a4f4 SIZE=6>
+        <form>
+            <p>学生姓名<span>*</span></p>
+            &nbsp;<input type="text" name="firstname"><br>
+            <p>性别<span>*</span></p>
+            &nbsp;<input class="z1" type="radio" name="sex" value="male">男<br>
+            &nbsp;<input type="radio" name="sex" value="female">女
+            <p>学号<span>*</span></p>
+            &nbsp;<input type="text" name="sn"><br>
+            <p>班级<span>*</span></p>
+            &nbsp;<input type="text" name="class"><br>
+            <p>联系方式<span>*</span></p>
+            <div class="w">
+                <i class="ph1"></i>
+                &nbsp;<input type="text" name="phone" class="ab"><br>
+            </div>
+            <p>家长联系方式<span>*</span></p>
+            <div class="w">
+                <i class="ph1"></i>
+                &nbsp;<input type="text" name="phone" class="ab"><br>
+            </div>
+            <p>现居地址<span>*</span></p>
+            <div class="w1">
+                <select name="cars">
+                    &nbsp;<option value="">请选择省份</option>
+                </select>
+                <select name="cars">
+                    &nbsp;<option value="">请选择城市</option>
+                </select>
+                <select name="cars">
+                    &nbsp;<option value="">请选择区/县</option>
+                </select>
+                <textarea rows="5" cols="40" class="ow">详细地址</textarea>
+            </div>
+            <p>延迟返校事由<span>*</span></p>
+            &nbsp;<input class="z1" type="radio" name="yy" value="male">确诊感染新型肺炎，正处于治疗期<br>
+            &nbsp;<input class="z1" type="radio" name="yy" value="male">疑似感染新型肺炎，正处于医学观察期<br>
+            &nbsp;<input class="z1" type="radio" name="yy" value="male">新型肺炎患者密切接触者，正处于居家隔离期<br>
+            &nbsp;<input class="z1" type="radio" name="yy" value="male">其他&nbsp;<input type="text" name="firstname"><br>
+            <p>计划返校日<span>*</span></p>
+            <div class="w">
+                <i class="ph2"></i>
+                &nbsp;<input type="text" name="phone"><br>
+            </div>
+            <p>证明材料上传(选填)</p>
+            <label id="realBtn" class="btn btn-info">
+                <div class="ph3">
+                    <span class="opi">选择文件(上限3个，每个30m以内)</span>
+                </div>
+               <input type="file" id="fileInput1" name="file" class="mFileInput" style="left:-9999px;position:absolute;">
+           </label>
+            <div class="w3">
+                <input class="zz1" type="button" value="提交">
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

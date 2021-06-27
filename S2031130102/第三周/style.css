@@ -1,0 +1,44 @@
+body {
+    font: 12px "SimSun","宋体";
+}
+a {
+    text-decoration: none;
+}
+header, main, footer {
+    margin: auto;
+    width: 1440px;
+}
+footer {
+    width: 960px;
+    padding: 21px 240px;
+    overflow: hidden;
+    color: #b7b7b7;
+    background-color: #4d191d;
+}
+footer a {
+    color: #b7b7b7;
+}
+footer img {
+    float: left;
+}
+footer p {
+    margin: 0;
+    line-height: 1;
+}
+div.footer-link {
+    float: left;
+    margin-left: 17px;
+}
+
+p.footer-link, .beian{
+    margin-top: 3px;
+}
+
+.copyright, .support {
+    margin-top: 12px;
+}
+
+.footer-beian {
+    float: right;
+    /* width: 108px; */
+}

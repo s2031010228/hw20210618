@@ -1,0 +1,304 @@
+body {
+    width: 1152px;
+    margin: auto;
+    height: auto;
+}
+
+.aqqqq {
+    height: 50px;
+    margin-top: 20px;
+}
+
+.title1 {
+    float: left;
+}
+
+.title1 .titler {
+    width: 130px;
+    float: left;
+}
+
+.title1 .left1b {
+    float: right;
+    font-size: 12px;
+    width: 204px;
+    line-height: 43px;
+}
+
+.right1 {
+    float: right;
+}
+
+.right1 li {
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 43px;
+}
+
+.right1 li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.a2 div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-top: 10px;
+}
+
+.a2 .area2a {
+    width: 560px;
+    height: 270px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.a2 .area2_a .area2b {
+    margin-left: 32px;
+    width: 264px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+}
+
+.a2 .area2b img {
+    width: 264px;
+    height: 184px;
+}
+
+.a2 .area2b_ {
+    width: 264px;
+    height: 270px;
+    background-image: linear-gradient(180deg, #34E3BC 0%, #15AF7A 98%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.a2 .area2b_ .a2b1 {
+    width: 236px;
+    height: 44px;
+    margin-top: 46px;
+    margin-left: 80px;
+}
+
+.a2 .area2b_ span {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 22px;
+}
+
+.area2 .area2b_ i {
+    margin-left: 108px;
+}
+
+.a2 .area2b_ .a2b2 {
+    width: 236px;
+    height: 22px;
+    margin-left: 50px;
+}
+
+.a2 .area2_b {
+    margin-top: 32px;
+}
+
+.a2 .area2_b .area2b {
+    margin-right: 32px;
+    width: 264px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.20);
+}
+
+.area2a span {
+    width: 74px;
+    height: 40px;
+    opacity: 0.6;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    background: #1C1F21;
+    position: absolute;
+    margin-top: 128px;
+}
+
+.area2a div {
+    width: 560px;
+    height: 103px;
+    opacity: 0.6;
+    color: #FFFFFF;
+    background: #1C1F21;
+    position: absolute;
+    margin-top: 168px;
+}
+
+.area2a div label {
+    width: 508px;
+    height: 44px;
+    margin-top: 30px;
+    margin-left: 26px;
+}
+
+.area2b span {
+    width: 74px;
+    height: 40px;
+    opacity: 0.6;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 40px;
+    background: #1C1F21;
+    position: absolute;
+    margin-top: 144px;
+}
+
+.area2b div {
+    width: 236px;
+    height: 44px;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.area3 {
+    height: 70px;
+    background-color: #F7F7F7;
+}
+
+.area4 {
+    background-color: #F7F7F7;
+}
+
+.area4 .area4_ {
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.area4 .area4a {
+    width: 364px;
+    height: 270px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.area4 .area4b {
+    width: 364px;
+    height: 120px;
+    margin-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.area4 .area4a div {
+    width: 364px;
+    height: 104px;
+    position: absolute;
+    opacity: 0.5;
+    background: #1C1F21;
+    margin-top: -104px;
+}
+
+.area4a a {
+    color: #36DFBA;
+    text-decoration: none;
+}
+
+.area4 .area4a div p {
+    margin-top: 17px;
+    margin-left: 21px;
+    margin-right: 21px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.area4 .area4b span {
+    width: 208px;
+    height: 66px;
+    position: absolute;
+    margin-top: 26px;
+    margin-left: 18px;
+}
+
+.area4 .area4c {
+    width: 364px;
+    height: 270px;
+    background-image: linear-gradient(180deg, #FF6374 1%, #FF7368 98%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+}
+
+.area4c span {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 22px;
+}
+.asa{
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+}
+.c1 {
+    width: 236px;
+    height: 44px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+.area4c img {
+    margin-top: 20px;
+    margin-left: 42%;
+}
+
+.c2 {
+    width: 310px;
+    height: 22px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.area2a {
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.area2b {
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.area2b_ {
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.area4a {
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+
+.area4b {
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+.area4c {
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+img {
+    vertical-align: top;
+    border: none
+}
